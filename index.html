@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida Santiago Gallego Henao</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS personalizado -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-lg my-5"><!-- los container son como burbujas o espacios donde me guardan algo, my-5= margin -->
+        <div class="row shadow-lg rounded-4 overflow-hidden"><!-- Aqui se generan las 12 columnas shadow-lg= genera una sombra en el recuadro bueno afuera, overflow-hidden= si algo se desborda dentro del div entonces me lo oculta-->
+            <!-- Columna izquierda -->
+             <div class="col-md-4 bg-primary text-white p-4"><!-- Estas funciones son propias de bootstrap entonces si quito el link de comunicacionde este, las funciones se pierden bg=background, text-white=texto en blancolo que hay en el div, p-4=padding osea margenes -->
+                <header class="text-center">
+
+                    <img style="height: 200px;" src="img/img.png.jpeg" 
+                    class="img-fluid rounded-circle border border-4 border-white mb-3"
+                    alt="Foto de perfil"><!-- img-fluid= que sea responsivo la imagen osea que se adapte al tamaño de los dispositivos circle=redondear la imagen-->
+                    <h1 class="fw-bold mb-1">SANTIAGO GALLEGO HENAO</h1>
+                    <h2 class="h5 text-light">Desarrollador web junior</h2>
+                </header>
+                <section class="mb-4">
+                    <h5 class="fw-bold"> <i class="fa-solid fa-address-card me-2 mb-2"></i> Contacto</h5><!-- icono sacado de font awesome -->
+                    <ul class="list-unstyled"><!-- para que no tenga los puntos de lista desordenada -->
+                        <li class"mb-2"> <a href="https://wa.me/573043201986?text=Hola%20estoy%20interesado%20en%20tu%20hoja%20de%20vida" class="text-white" target="_blank"><!-- target bank es para que el link se habra en otra ventana nueva -->
+                            <i class="fa-brands fa-whatsapp me-2"></i>+57 3043201986</a><!-- el a es para hacer relacion al wasap para poder abrirlo al momento de darle click y se  coloca al final para que funcione si el usuario le da en el icono o en el numero -->
+                        </li><!-- alt+ctrl+shif para escribir en mas parrafos al tiempo -->
+                        <li class"mb-2">
+                            <i class="fas fa-envelope me-2"></i><!-- me-2 es el espacio entre el icono y el contenido o mensaje -->
+                            santigallego843@gmail.com</li>
+                        <li class"mb-2"><i class="fas fa-map-marker-alt me-2"></i>Manizales, Caldas</li>
+                        <li class"mb-2"><i class="fab fa-linkedin me-2"></i>linkedin</li>
+                        <li class"mb-2"><a href="https://github.com/santixg10" class="text-white" target="_blank">
+                            <i class="fab fa-github me-2"></i>github.com/santixg10</li> </a>
+                    </ul>
+                </section>
+
+             </div>
+             <!-- Columna derecha -->
+              <div class="col-md-8"><!-- Hay 12 columnas y en la izquierda decimos que use 4 y en la derecha usamos 8 = col-md-8 -->
+                
+              </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
