@@ -21,24 +21,25 @@
              <div class="col-md-4 bg-primary text-white p-4"><!-- Estas funciones son propias de bootstrap entonces si quito el link de comunicacionde este, las funciones se pierden bg=background, text-white=texto en blancolo que hay en el div, p-4=padding osea margenes -->
                 <header class="text-center">
 
-                    <img style="height: 200px;" src="img/img.png.jpeg" 
+                     <img style="height: 200px;" src="img/img.png.jpeg" 
                     class="img-fluid rounded-circle border border-4 border-white mb-3"
-                    alt="Foto de perfil"><!-- img-fluid= que sea responsivo la imagen osea que se adapte al tamaño de los dispositivos circle=redondear la imagen-->
+                    alt="Foto de perfil"> <!-- img-fluid= que sea responsivo la imagen osea que se adapte al tamaño de los dispositivos circle=redondear la imagen-->
                     <h1 class="fw-bold mb-1">SANTIAGO GALLEGO HENAO</h1>
                     <h2 class="h5 text-light">Desarrollador web junior</h2>
                 </header>
                 <section class="mb-4">
+                    <!-- Contacto -->
                     <h5 class="fw-bold"> <i class="fa-solid fa-address-card me-2 mb-2"></i>Contacto</h5><!-- icono sacado de font awesome -->
                     <ul class="list-unstyled"><!-- para que no tenga los puntos de lista desordenada -->
-                        <li class"mb-2"> <a href="https://wa.me/573043201986?text=Hola%20estoy%20interesado%20en%20tu%20hoja%20de%20vida" class="text-white" target="_blank"><!-- target bank es para que el link se habra en otra ventana nueva -->
+                        <li class"mb-2"> <a href="https://wa.me/573043201986?text=Hola,%20me%20interesa%20tu%20perfil,%20puedes%20aplicar%20a%20mi%20oferta%20laboral" class="text-white" target="_blank"><!-- target bank es para que el link se habra en otra ventana nueva -->
                             <i class="fa-brands fa-whatsapp me-2"></i>+57 3043201986</a><!-- el a es para hacer relacion al wasap para poder abrirlo al momento de darle click y se  coloca al final para que funcione si el usuario le da en el icono o en el numero -->
                         </li><!-- alt+ctrl+shif para escribir en mas parrafos al tiempo -->
-                        <li class"mb-2">
-                            <i class="fas fa-envelope me-2"></i><!-- me-2 es el espacio entre el icono y el contenido o mensaje -->
+                        <li class"mb-2 print">
+                            <i class="fas fa-envelope me-1"></i><!-- me-2 es el espacio entre el icono y el contenido o mensaje -->
                             santigallego843@gmail.com</li>
                         <li class"mb-2"><i class="fas fa-map-marker-alt me-2"></i>Manizales, Caldas</li>
                         <li class"mb-2"><i class="fab fa-linkedin me-2"></i>linkedin</li>
-                        <li class"mb-2"><a href="https://github.com/santixg10" class="text-white" target="_blank">
+                        <li class"mb-2 print"><a href="https://github.com/santixg10" class="text-white" target="_blank">
                             <i class="fab fa-github me-2"></i>github.com/santixg10</li> </a>
                     </ul>
                 </section>
@@ -68,19 +69,137 @@
                             <div class="progress-bar" style="width: 35%;"></div>
                         </div>
                     </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between"><!-- lo que coloque se me ponga en ambos extremos -->
+                            <span>Arduino</span>
+                            <span>45%</span>
+                        </div>
+
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar" style="width: 45%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between"><!-- lo que coloque se me ponga en ambos extremos -->
+                            <span>Excel</span>
+                            <span>35%</span>
+                        </div>
+
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar" style="width: 35%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between"><!-- lo que coloque se me ponga en ambos extremos -->
+                            <span>SolidWorks</span>
+                            <span>40%</span>
+                        </div>
+
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar" style="width: 40%;"></div>
+                        </div>
+                    </div>
 
                 </section>
 
              </div>
              <!-- Columna derecha -->
-              <div class="col-md-8"><!-- Hay 12 columnas y en la izquierda decimos que use 4 y en la derecha usamos 8 = col-md-8 -->
-                
+              <div class="col-md-8 bg-light p-4"><!-- Hay 12 columnas y en la izquierda decimos que use 4 y en la derecha usamos 8 = col-md-8 -->
+                <section class="mb-5">
+                    <h4 class="fw-bold text-primary mb-4">
+                        <i class="fas fa-briefcase me-2"></i>
+                        Experencia Laboral
+                    </h4>
+                    <!-- primera carta -->
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-tittle fw-bold">Logistico en Eventos</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small">2024 - Actualidad</h5><!-- text-muted es letra mas clarita y card-subtitle es para dentro de la carta un subtitulo -->
+                            <h6 class="text-primary">Quality Agencia SAS</h6>
+                            <ul class="mt-3">
+                                <li>Liderazgo en equipo.</li>
+                                <li>Atencion al cliente.</li>
+                                <li>Acatacion de instrucciones.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Segunda carta -->
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-tittle fw-bold">Auxiliar de cocina</h4>
+                            <h5 class="card-subtitle mb-2 text-muted small">2023 - 2023</h5>
+                            <h6 class="text-primary">Chuzos Caliche</h6>
+                            <ul class="mt-3">
+                                <li>Cumplimiento de roles.</li>
+                                <li>Efectividad con lo pedido.</li>
+                                <li>Acatacion de instrucciones.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- Eduaciones -->
+                <section class="mb-5">
+                    <h4 class="fw-bold text-primary mb-4"><!-- estilos de la letra -->
+                        <i class="fas fa-graduation-cap me-2"></i>
+                        Eduación
+                    </h4>
+
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">
+                                Aspirante a ingeniero mecatrónico
+                            </h4>
+                            <h5 class="card-subtitle mb-2 text-muted small">
+                                2022 - Actualmente 
+                            </h5>
+                            <h6 class="text-primary">
+                                Universidad de Caldas
+                            </h6>
+                            <ul class="mt-3">
+                                <li>Habilidades de programación en Arduino.</li>
+                                <li>Manejo de sensores.</li>
+                                <li>Sistemas de captación de datos</li>
+
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                          <h4 class="card-title fw-bold">
+                                BootCamp de programacion TalentoTech
+                            </h4>
+                            <h5 class="card-subtitle mb-2 text-muted small">
+                                2025 - Actualmente 
+                            </h5>
+                            <h6 class="text-primary">
+                                Universidad de Caldas
+                            </h6>
+                            <ul class="mt-3">
+                                <li>Habilidades en HTML, CSS, JavaScript.</li>
+                                <li>Habilidades y manejo basico de Git.</li>
+                                
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    
+                </section>
               </div>
 
         </div>
+        <div class="text-center my-4 ">
+            <button onclick="downloadPDF()" class="btn btn-outline-primary">Descargar PDF</button>
+        </div>
     </div>
-
+    
+    <!-- html2pdf.js CDN -->
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script> -->
+<script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Comuniación con el script de aca local -->
+    <script src="script.js"></script>
 </body>
 </html>

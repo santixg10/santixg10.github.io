@@ -14,3 +14,21 @@
 .progress-bar{
     background-color: white;
 }
+
+/* cambioo color texto columna derecha */
+.text-primary{
+    color: #3498db !important;
+}
+/* Efecto para las CARDS */
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;/* Tenga una leve sombra al momento de pasar encima */
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.print{
+    font-size: 95%;
+}
