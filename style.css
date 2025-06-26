@@ -22,6 +22,7 @@
 /* Efecto para las CARDS */
 .card{
     transition: transform 0.3s ease, box-shadow 0.3s ease;/* Tenga una leve sombra al momento de pasar encima */
+    
 }
 
 .card:hover{
@@ -31,4 +32,15 @@
 
 .print{
     font-size: 95%;
+}
+/* Mejor visualizacion para el PDF */
+.card, section, .row {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+@media print {
+  .btn {
+    display: none !important;
+  }
 }
